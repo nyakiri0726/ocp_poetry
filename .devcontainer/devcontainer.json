@@ -1,0 +1,22 @@
+{
+    "name": "Python39docker2",
+    "dockerFile": "../dockerfile",
+    "postCreateCommand": "./postcmd.sh",
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.black-formatter",
+        "njpwerner.autodocstring",
+        "mosapride.zenkaku",
+        "oderwat.indent-rainbow"
+    ],
+    "forwardPorts": [
+        8888
+    ],
+    "runArgs": [
+        "--gpus",
+        "all",
+        "--shm-size",
+        "16gb"
+    ],
+}

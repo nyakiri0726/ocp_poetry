@@ -1,0 +1,20 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "/usr/local/bin/black",
+    "python.linting.lintOnSave": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E203, W503",
+        // E203: ":"の前の空白を入れないルール
+        // W503: 演算子の前に改行しないようにするルール
+        "--max-complexity=10",
+    ],
+    "python.linting.mypyEnabled": true,
+    "autoDocstring.docstringFormat": "google",
+}
