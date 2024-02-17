@@ -18,6 +18,26 @@ jupyterlab = "^3.5.0"
 numpy = "^1.23.5"
 mypy = "^0.991"
 torch={path="torch-1.13.1+cu116-cp39-cp39-linux_x86_64.whl"}
+pyg_lib={path="pyg_lib-0.1.0+pt113cu116-cp39-cp39-linux_x86_64.whl"}
+torch_cluster={path="torch_cluster-1.6.0+pt113cu116-cp39-cp39-linux_x86_64.whl"}
+torch_sparse={path="torch_sparse-0.6.15+pt113cu116-cp39-cp39-linux_x86_64.whl"}
+torch_scatter={path="torch_scatter-2.1.0+pt113cu116-cp39-cp39-linux_x86_64.whl"}
+torch-geometric = "^2.2.0"
+pre-commit = "^3.0.4"
+pyyaml = "^6.0"
+lmdb = "^1.4.0"
+matplotlib = "^3.6.3"
+wandb = "^0.13.9"
+ase = "3.21.1"
+tensorboard = "^2.11.2"
+numba = "^0.56.4"
+pymatgen = "2020.12.31"
+tqdm = "^4.64.1"
+submitit = "^1.4.5"
+syrupy = "^4.0.0"
+fastapi = "^0.89.1"
+uvicorn = "^0.20.0"
+
 
 
 
